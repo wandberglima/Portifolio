@@ -32,16 +32,31 @@
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Procurar" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" id="procura" type="submit">Procurar</button>
+            <input class="form-control mr-sm-2 locate" type="search" placeholder="Procurar" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" id="procura" onclick="localizaTexto" type="submit">Procurar</button>
           </form>
         </div>
       </nav>
     </header>
 
-    <main class="container-fluid posicao">
+    <main class="container-fluid row posicao">
       <!-- Tela de Boas Vindas -->
-      <section class="container">
+
+      <section class="container col-sm-2">
+
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+      </section>
+
+
+      <section class="container col-sm">
         <h1 class="display-3">Bem Vindo(a)</h1>
         <p class="lead">Ao meu portifólio</p>
         <hr class="my-2">
