@@ -13,7 +13,7 @@
   </head>
   <body>
     <!-- Menu de Navegação -->
-    <header>
+    <header class="fixed-top">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -32,106 +32,107 @@
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <input class="form-control mr-sm-2" type="search" placeholder="Procurar" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" id="procura" type="submit">Procurar</button>
           </form>
         </div>
       </nav>
     </header>
-    
-    <!-- Tela de Boas Vindas -->
-    <section class="container-fluid">
-      <div class="container">
+
+    <main class="container-fluid posicao">
+      <!-- Tela de Boas Vindas -->
+      <section class="container">
         <h1 class="display-3">Bem Vindo(a)</h1>
         <p class="lead">Ao meu portifólio</p>
         <hr class="my-2">
         <p>Aqui você encontrara diversas informações sobre mim e minha trajetória</p>
-      </div>
-    </section>
+      </section>
 
+    </main>
+    
     <!-- Rodapé Estilizado -->
-      <footer class="text-center text-white" style="background-color: #f1f1f1;">
-        <!-- Grid container -->
-        <div class="container pt-4">
-          <!-- Section: Social media -->
-          <section class="mb-4">
-            <!-- Facebook -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="https://www.facebook.com/wandberg" 
-              target="_blank"
-              role="button"
-              data-mdb-ripple-color="dark"><i class="bi bi-facebook"></i></a>
-      
-            <!-- Twitter -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="https://twitter.com/Wandbergshimy"
-              target="_blank"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="bi bi-twitter"></i
-            ></a>
-      
-            <!-- Google -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="wandberg@gmail.com"
-              target="_blank"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="bi bi-google"></i
-            ></a>
-      
-            <!-- Instagram -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="https://www.instagram.com/wandbergdelima/"
-              target="_blank"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="bi bi-instagram"></i
-            ></a>
-      
-            <!-- Linkedin -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="https://www.linkedin.com/in/wandberg-de-lima-1a5a52177/"
-              target="_blank"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="bi bi-linkedin"></i
-            ></a>
-            <!-- Github -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="https://github.com/wandbergdelima"
-              target="_blank"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="bi bi-github"></i
-            ></a>
-            <!-- Whatsapp -->
-            <a
+    <footer class="text-center text-white fixed-bottom" style="background-color: #f1f1f1;">
+      <!-- Grid container -->
+      <div class="container pt-4 zerado">
+        <!-- Section: Social media -->
+        <section class="mb-4 zerado">
+          <!-- Facebook -->
+          <a
             class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="https://wa.me/qr/2QPZX4CJAYEEO1"
+            href="https://www.facebook.com/wandberg" 
+            target="_blank"
+            role="button"
+            data-mdb-ripple-color="dark"><i class="bi bi-facebook"></i></a>
+    
+          <!-- Twitter -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://twitter.com/Wandbergshimy"
             target="_blank"
             role="button"
             data-mdb-ripple-color="dark"
-            ><i class="bi bi-whatsapp"></i
-            ></a>
-          </section>
-          <!-- Section: Social media -->
-        </div>
-        <!-- Grid container -->
-      
-        <!-- Copyright -->
-        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2020 Copyright:
-          <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-        </div>
-        <!-- Copyright -->
-      </footer>
+            ><i class="bi bi-twitter"></i
+          ></a>
+    
+          <!-- Google -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="wandberg@gmail.com"
+            target="_blank"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="bi bi-google"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://www.instagram.com/wandbergdelima/"
+            target="_blank"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="bi bi-instagram"></i
+          ></a>
+    
+          <!-- Linkedin -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://www.linkedin.com/in/wandberg-de-lima-1a5a52177/"
+            target="_blank"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+          <!-- Github -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://github.com/wandbergdelima"
+            target="_blank"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="bi bi-github"></i
+          ></a>
+          <!-- Whatsapp -->
+          <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://wa.me/qr/2QPZX4CJAYEEO1"
+          target="_blank"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="bi bi-whatsapp"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-dark">Wandberg de Lima</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
     <!-- Não Alterar os Scripts Daqui para baixo! -->
     <script src="./js/script-home.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

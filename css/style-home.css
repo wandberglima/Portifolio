@@ -1,0 +1,9 @@
+.zerado {
+    margin-bottom: 0px !important;
+    padding: 0px !important;
+}
+
+.posicao {
+    position: relative;
+    top: 50px;
+}
